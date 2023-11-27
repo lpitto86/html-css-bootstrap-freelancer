@@ -7,3 +7,40 @@
 html {
       font-family: Arial, Helvetica, sans-serif;
 }
+
+.first-img {
+      max-width: 300px;
+}
+
+.star-container::before,
+.star-container::after {
+      content: "";
+      display: inline-block;
+      width: 20%;
+      height: 4px;
+      background-color: white;
+      vertical-align: middle;
+      border-radius: 2px;
+}
+
+.star-container i {
+      vertical-align: middle;
+}
+
+.star-container.dark-bars::before,
+.star-container.dark-bars::after {
+      background-color: black;
+}
+
+.form-control:focus {
+      box-shadow: none;
+}
+
+.form-floating>textarea.form-control.form-control {
+      height: 200px;
+}
+
+.my-btn-success {
+      --bs-btn-bg: rgb(26, 188, 156);
+      --bs-btn-border-color: rgb(26, 188, 156);
+}
