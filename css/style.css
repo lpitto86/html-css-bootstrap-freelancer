@@ -44,3 +44,13 @@ html {
       --bs-btn-bg: rgb(26, 188, 156);
       --bs-btn-border-color: rgb(26, 188, 156);
 }
+
+.my-circle-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border: 1px solid white;
+      text-align: center;
+      border-radius: 50%;
+}
